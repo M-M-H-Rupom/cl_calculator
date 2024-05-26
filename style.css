@@ -1,0 +1,32 @@
+.cl_container{
+    width: 500px;
+    /* height: 500px; */
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 32px 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(206, 201, 201);
+}
+#display_value{
+    /* width: 100%; */
+    width: calc(100% - 28px);
+    margin-bottom: 12px;
+    padding: 12px;
+    font-size: 18px;
+
+}
+.cl_buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+button{
+    padding: 16px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover{
+    background-color: #e0e0e0;
+}
